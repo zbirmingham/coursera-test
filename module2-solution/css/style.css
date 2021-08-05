@@ -1,0 +1,92 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+article {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section {
+  background-color: #999999;
+  height: 225px;
+  float: left;
+  border: 2px black solid;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+section > div {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px black solid;
+  width: 125px;
+  margin-left: auto;
+}
+
+section:nth-child(1) > div {
+  background-color: #d59898;
+}
+
+section:nth-child(2) > div {
+  background-color: #c14543;
+  color: white;
+}
+
+section:nth-child(3) > div {
+  background-color: #e5d198;
+}
+
+section > p {
+  padding: 0px 25px 25px 25px;
+}
+
+@media (min-width: 992px) {
+
+  section {
+    width: 30%;
+  }
+  
+  section > div {
+    font-size: 1.75em;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  section:nth-child(1), section:nth-child(2) {
+    width: 45%;
+  }
+
+  section:nth-child(2) {
+    float: right;
+  }
+
+  section:nth-child(3) {
+    width: 97%;
+  }
+
+  section > div {
+    font-size: 1.25em;
+  }
+
+}
+
+@media (max-width: 767px) {
+
+  section > div {
+    font-size: 1.25em;
+  }
+  
+}
