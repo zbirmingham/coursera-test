@@ -33,12 +33,8 @@ body {
 }
 
 #nav-list a:hover {
-  background: #666;
+  background-color: #666;
   color: #fff;
-}
-
-#collapsable-nav {
-    background-color: #fff;
 }
 
 #collapsable-nav a {
@@ -105,9 +101,11 @@ section a:hover {
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
-
   #header-nav {
     padding-bottom: 0px;
   }
 
+  #collapsable-nav {
+    background-color: #fff;
+  }
 }
