@@ -100,11 +100,11 @@ section a:hover {
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  /*section {
+ section {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-  }*/
+  }
 
 }
 
@@ -119,10 +119,10 @@ section a:hover {
     background-color: #fff;
   }
 
-  /*section {
+  section {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-  }*/
+  }
 
 }
